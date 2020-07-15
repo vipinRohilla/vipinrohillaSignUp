@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: linear-gradient(180deg, skyblue, skyblue); */
+    background-color: white;
+    font-size: 1.3rem;
+    color: black;
+    
+
+}
+label{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    
+}
+header{
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+.forumDiv{
+    border-radius: 30px;
+    padding: 55px;
+    line-height: 2.3rem;
+    /* border: 2px solid gray; */
+    box-shadow: 10px 10px 100px lightgray, -10px -10px 100px lightgray;
+
+    /* background: linear-gradient(180deg, blue, skyblue); */
+    /* background-color: black; */
+    background-color: white;
+    margin: 0 20vw 0 20vw;
+}
+
+#forum{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+input[type=text]{
+    border-radius: 50px;
+    border: 2px solid skyblue;
+}
+.textFields div{
+    padding-bottom: 1.5rem;
+
+}
+.textFields div, .feature{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textFields div input{
+    border-radius: 10px;
+    height: 40px;
+    outline-style: none;
+    padding-left: 14px;
+    font-size: 1.3rem;
+
+}
+.currentRole, .checkBox{
+    display: flex;
+    flex-direction: column;
+}
+select{
+    font-size: 1.1rem;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+}
+.checkBox div{
+    padding-bottom: 1px;
+}
+
+input[type=checkbox]{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+#textarea, #textarea:active{
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 60px gray; */
+    border: 1px solid skyblue;
+    /* margin-left: 2.1rem; */
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 30vh;
+    width: 50vw;
+    color: gray;
+    outline-color: skyblue;
+}
+.button{
+    font-size: 1.7rem;
+    border: 3px solid white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    border: 3px solid skyblue;
+
+
+}
+.button:hover, .button:active{
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    color: black;
+    border: 3px solid rgba(0, 0, 255, 0.555);
+
+
+}
+#button{
+    padding: 0px;
+    margin: 40px;
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2rem;
+        
+    }
+    header{
+        padding: 30px;
+    }
+    label{
+        font-size: 1.2rem;
+    }
+    #button{
+        width: 63vw;
+    }
+}
+@media only screen and (max-width: 1100px)
+{
+
+    .forumDiv{
+        margin: 0 4vw 0 4vw;
+    }
+ 
+    #button{
+        margin: 7px;
+    }
+
+}
+
+
+
